@@ -2,7 +2,7 @@ name: gns3fy build
 
 on:
   push:
-    branches: ['master']
+    branches: ['main']
 
 env:
   REGISTRY: ghcr.io
