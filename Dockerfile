@@ -11,4 +11,8 @@ RUN pip3 install netaddr
 
 RUN pip3 install pexpect
 
-RUN pip3 install gns3fy
+RUN pip3 install gns3fy==0.8.0
+
+RUN pip3 install pydantic==1.9.2
+
+RUN pip3 install mazer
